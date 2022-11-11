@@ -1,2 +1,12 @@
-#working row {
+#working_row {
+    height: 200px;
+}
+#input_cell {
+    width: 200px;
+    background-color: teal;
+}
+
+#working_cell {
+    width: 200px;
+    background-color: teal;
 }

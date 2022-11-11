@@ -1,0 +1,84 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#rise_label {
+    position: absolute;
+    left: 40px;
+    top: 55px;
+}
+
+#rise_box {
+    position: absolute;
+    left: 23px;
+    top: 95px;
+    width: 70px;
+}
+
+#run_label {
+    position: absolute;
+    left: 403px;
+    top: 200px;
+}
+
+#run_box {
+    position: absolute;
+    left:386px;
+    top:253px;
+    width: 70px;
+}
+
+#percent_label {
+    position: absolute;
+    left: 438px;
+    top: 43px;
+}
+
+#percent_box {
+    position: absolute;
+    left:431px;
+    top:32px;
+    width: 70px;
+}
+
+#ratio_label {
+    position: absolute;
+    left: 535;
+    top: 43px;
+}
+
+#ratio_box {
+    position: absolute;
+    left:520px;
+    top:32px;
+    width: 70px;
+}
+
+#mmperm_label {
+    position: absolute;
+    left: 620;
+    top: 43px;
+}
+
+#mmpermet_box {
+    position: absolute;
+    left:610px;
+    top:32px;
+    width: 70px;
+}
+
+#subbut {
+    position: absolute;
+    left: 550px;
+    top: 100px;
+}
+
+#datum {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}

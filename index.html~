@@ -2,14 +2,12 @@
     <head>
         <link rel="stylesheet" href="css\index.css">
         <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-        <script src="js/index.js"></script>
+        <script src="css/index.js"></script>
     </head>
     <body>
         <h1>Tool Library</h1>
         <ol>
             <li><a href="pages/rebound.html"> PE rebound test - released water calculation</a></li>
-            <li><a href="pages/dimensions.html">Floor plan sum tool</a></li>
-            <li><a href="pages/falls.html">falls and gradient tools</a></li>
         </ol>
     </body>
 </html>
