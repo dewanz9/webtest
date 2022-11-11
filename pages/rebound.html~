@@ -1,0 +1,118 @@
+<html>
+    <head>
+	<meta charset="UTF-9">
+	<title>connorsTools - pe rebound calculation tool</title>
+        <link rel="stylesheet" href="../css/rebound.css" >
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="../js/rebound.js"></script>
+    </head>
+    <body>
+        <h1>PE rebound test calculation tool</h1>
+        <form>
+        <table>
+            <tr>
+                <td>
+                    <p>Pipeline volume:</p>
+                </td>
+                <td>
+                    <input type="number" step="0.01">  
+                </td>
+	    	<td>
+		    <p>L</p>
+		</td>
+	    </tr>
+            <tr>
+                <td>
+                    <p>Pressure drop (kpa):</p>
+                </td>
+                <td>
+                    <input type="number" step="0.01">  
+                </td>
+                <td>
+	    	    <p>kpa</p>
+		</td>
+	    </tr>
+            <tr>
+                <td>
+                    <p>Pipe internal diameter:</p>
+                </td>
+                <td>
+                    <input type="number" step="0.01">  
+                </td>
+		<td>
+			<p>m</p>
+		</td>
+	    </tr>
+            <tr>
+                <td>
+                    <p>Pipe wall thickness:</p>
+                </td>
+                <td>
+                    <input type="number" step="0.01">  
+                </td>
+		<td>
+			<p>m</p>
+		</td>
+	    </tr>
+
+            <tr>
+                <td>
+                    <p>PE80 or PE100?:</p>
+                </td>
+                <td>
+			<select name="type" id="petype">
+				<option value="80">PE80</option>
+				<option value="100">PE100</option>
+			</select>
+		</td>
+	    </tr>
+	    <tr>
+		<td>
+		     <!--for material modulus-->
+		     <p>Pipeline temp:</p>
+		</td>
+		<td>
+			<select name="pipe_temp" id="pipeTempBox">
+				<option value="5">5&deg;C</option>
+				<option value="10">10&deg;C</option>
+				<option value="15">15&deg;C</option>
+				<option value="20">20&deg;C</option>
+				<option value="25">25&deg;C</option>
+				<option value="30">30&deg;C</option>
+	    		</select>
+		</td>
+		<td>
+			<p>Test duration:</p>
+	        </td>
+	        <td>
+			<select name="test_time" id="timebox">
+				<option value="1">1h</option>
+				<option value="2">2h</option>
+				<option value="3">3h</option>
+			</select>
+		</td>
+	    </tr>
+	    <tr>
+		    <td>
+		    	<p>Water temperature</p>
+		    </td>
+		<td>
+			<select name="water_temp" id="waterTempBox">
+				<option value="5">5&deg;C</option>
+				<option value="10">10&deg;C</option>
+				<option value="15">15&deg;C</option>
+				<option value="20">20&deg;C</option>
+				<option value="25">25&deg;C</option>
+				<option value="30">30&deg;C</option>
+	    		</select>
+		</td>
+	    </tr>
+	    <tr>
+		    <td>
+			    <input type="button" id="sub_button" value="calculate">
+		    </td>
+	    </tr>
+	</table>
+        </form>
+    </body>
+</html>
